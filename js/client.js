@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('https://chat-backend-g1ev.onrender.com/');
 // const socket = io('/');
 
 const form = document.querySelector('#formsubmit');
