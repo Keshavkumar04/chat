@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Tektur', cursive;
+    color: whitesmoke;
+    margin: 10px 0px;
+    padding-left: 40px;
+}
+
+.container{
+    background-image: url(../utlis/peakpx.jpg);
+    height: 80vh;
+    overflow-y: auto;
+    width: 100%;
+}
+.message{
+    /* background-color: rgb(34, 255, 14); */
+    width: auto;
+    max-width: 25%;
+    padding: 8px;
+    margin: 17px 12px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    word-wrap: break-word; 
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 2% 100%, 2% 26%); */
+    font-family: 'Kanit', sans-serif;
+}
+
+#text{
+    width: 90%;
+    background-color: #2A3942;
+    padding: 9px 12px;
+    margin: 5px 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 13px;
+    color: #D1D7DB;
+    font-family: 'Kanit', sans-serif;
+}
+
+.left{
+    float: left;
+    clear: both;
+    margin-left: 15px;
+    background-color: #2f3c44;;
+    color: #E9EDEF;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2% 100%, 2% 26%);
+    
+}
+
+.right{
+    float: right;
+    clear: both;
+    margin-right: 15px;
+    background-color: #005c4b;
+    color: #E9EDEF;
+    clip-path: polygon(100% 0, 98% 30%, 98% 100%, 0 100%, 0 0);
+}
+
+.centre {
+    margin: 5px auto;
+    display: block;
+    clear: both;
+    width: 18%;
+    padding: 5px 12px 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(20, 19, 19);
+    color:#8696A0;
+    text-align: center;
+}
+
+.send{
+    background-color: #202C33;
+}
+
+.btn{
+    background-color: #202C33;
+    border: none;
+    transform: translate(1px, 12px);
+}
+
+
+
+
+  .container::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Reducing the scrollbar height for WebKit-based browsers */
+  .container::-webkit-scrollbar-thumb {
+    height: 20px; /* Adjust this value to reduce the height */
+    background-color: #202C33;
+  }
+
+  /* Optional: Styling the scrollbar buttons for WebKit-based browsers */
+  .container::-webkit-scrollbar-button {
+    display: none; /* You can choose to hide the buttons */
+  }
+  
+  /* Optional: Styling the scrollbar corner for WebKit-based browsers */
+  .container::-webkit-scrollbar-corner {
+    background-color: #f1f1f1;
+  }
+  
